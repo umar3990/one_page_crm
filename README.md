@@ -3,22 +3,35 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+Ruby version
 
-* Ruby version
+* Ruby 3.0.0
 
-* System dependencies
+Rails version
 
-* Configuration
+* Rails 7.0.4.2
 
-* Database creation
+System dependencies
 
-* Database initialization
+* Ruby, yarn, npm and postgresql
 
-* How to run the test suite
+Database creation
 
-* Services (job queues, cache servers, search engines, etc.)
+* `rails db:create `
+* `rails db:migrate`
 
-* Deployment instructions
+Node version
+``
+* v19.7.0
 
-* ...
+Project run
+
+* `bundle install`
+* `rails assets:precompile`
+* `rails s`
+
+How to run the test suite
+
+* WIP
+
+Note: You can find project requirements specification in file `/one_page_crm/Task_Description_Ruby_on_Rails.pdf`
