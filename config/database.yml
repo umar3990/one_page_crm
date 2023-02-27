@@ -81,6 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: one_page_crm_production
-  username: one_page_crm
-  password: <%= ENV["ONE_PAGE_CRM_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
