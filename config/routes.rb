@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  get '/calculator', to: 'calculator#index'
+  post '/calculator/calculation', to: 'calculator#calculation'
 
-  # Defines the root path route ("/")
-  # root "articles#index"
+  root "calculator#index"
 end
